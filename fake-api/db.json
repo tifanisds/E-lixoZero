@@ -1,0 +1,60 @@
+{
+    "locations": [
+        {
+            "id": "1",
+            "name": "ECOPONTO Miragem",
+            "city": "Lauro de Freitas",
+            "address": "R. Evanildes Bonifácio Costa - Miragem, Lauro de Freitas - BA, 42700-000",
+            "operating-hour": "Seg a Sex: 8h à 16h, Sab: 8h à 12h",
+            "contact": "Não divulgado"
+        },
+        {
+            "id": "2",
+            "name": "VITALE TRANSPORTE DE RESÍDUOS",
+            "city": "Lauro de Freitas",
+            "address": "R. Dinah Rodrigues, 183 - GALPÃO 05 - Caji, Lauro de Freitas - BA, 42722-150",
+            "operating-hour": "Atendimento 24h",
+            "contact": "(71) 99654-6401"
+        },
+        {
+            "id": "3",
+            "name": "CAELF",
+            "city": "Lauro de Freitas",
+            "address": "R. Estrela do Mar, 61 - Portal Norte Center, Lauro de Freitas - BA, 42700-000",
+            "operating-hour": "Seg a Sex: 8h à 17h",
+            "contact": "(71) 3287-3198"
+        },
+        {
+            "id": "4",
+            "name": "LIXO ELETRONICO MRX",
+            "city": "Salvador",
+            "address": "R. Jaime Loureiro, 87 - Boca do Rio, Salvador - BA, 41710-600",
+            "operating-hour": "Seg a Sex: 8h à 18h, Sab: 8h à 12h",
+            "contact": "(71) 98679-0920"
+        },
+        {
+            "id": "5",
+            "name": "Recicle Logística Reversa de Eletrônicos",
+            "city": "Salvador",
+            "address": "R. Guanabara, 03 - Nordeste do Amaralina, Salvador - BA, 41900-405",
+            "operating-hour": "Seg a Sex: 8h à 18h, Sab: 8h à 13h",
+            "contact": "(71) 3838-8779"
+        },
+        {
+            "id": "6",
+            "name": "Recicla Salvador",
+            "city": "Salvador",
+            "address": "R. Édson Saldanha, 210a - Matatu, Salvador - BA, 40255-670",
+            "operating-hour": "Seg a Sex: 8:30h à 12h, 13h à 17:30h. Sab: 8:30h à 12h, 13h à 15:30",
+            "contact": "(71) 99134-3624"
+        },
+        {
+            "id": "7",
+            "name": "WBS",
+            "city": "Salvador",
+            "address": "R. Lúcio Manoel da Hora - Boca do Rio, Salvador - BA, 41710-705",
+            "operating-hour": "Seg a Sex: 8h à 19h, Sab: 8h à 14:30",
+            "contact": "(71) 98163-7574"
+        }
+    ]
+}
