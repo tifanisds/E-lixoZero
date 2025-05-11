@@ -6,16 +6,14 @@ import HelloWorld from './components/HelloWorld.vue'
   <div class="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <img src="./assets/img/assets_task_01jtp274kqesctkfbp48spd7dq_1746644795_img_0.webp" alt="">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="logo">
+            <img src="./assets/img/logo.png" alt="">
+          </div>
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="./pages/locationsPage/">Pontos de coleta</a>
+            <a class="nav-link" href="./pages/aboutEletronicWastePage/">Conscientize-se</a>
+            <a class="nav-link" href="./pages/aboutUsPage/">Sobre o projeto</a>
           </div>
         </div>
       </div>
@@ -23,6 +21,28 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+  @use "assets/styles/variables.scss" as *;
+
+  .bg-body-tertiary {
+      background-color: $mainColor !important;
+
+      .navbar-collapse {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+
+          .logo img{
+          width: 100px;
+        }
+
+        .navbar-nav a {
+          margin-left: 15px;
+          color: #FFF;
+          font-weight: bold;
+        }
+      }
+  }
+
 
 </style>

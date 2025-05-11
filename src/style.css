@@ -1,3 +1,5 @@
-.nav {
-  background-color: #1A0B2E;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
