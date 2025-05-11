@@ -13,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
           <div class="navbar-nav">
             <router-link class="nav-link" to="/locationsPage">Pontos de coleta</router-link>
             <router-link class="nav-link" to="/aboutEletronicWastePage">Conscientize-se</router-link>
-            <router-link class="nav-link" to="/aboutPage">Sobre o projeto</router-link>
+            <router-link class="nav-link" to="/aboutUsPage">Sobre o projeto</router-link>
           </div>
         </div>
       </div>
