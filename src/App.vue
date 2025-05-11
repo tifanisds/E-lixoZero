@@ -11,14 +11,15 @@ import HelloWorld from './components/HelloWorld.vue'
             <img src="./assets/img/logo.png" alt="">
           </div>
           <div class="navbar-nav">
-            <a class="nav-link" href="./pages/locationsPage/">Pontos de coleta</a>
-            <a class="nav-link" href="./pages/aboutEletronicWastePage/">Conscientize-se</a>
-            <a class="nav-link" href="./pages/aboutUsPage/">Sobre o projeto</a>
+            <router-link class="nav-link" to="/locationsPage">Pontos de coleta</router-link>
+            <router-link class="nav-link" to="/aboutEletronicWastePage">Conscientize-se</router-link>
+            <router-link class="nav-link" to="/aboutPage">Sobre o projeto</router-link>
           </div>
         </div>
       </div>
     </nav>
   </div>
+  <router-view />
 </template>
 
 <style scoped lang="scss">
@@ -36,7 +37,7 @@ import HelloWorld from './components/HelloWorld.vue'
           width: 100px;
         }
 
-        .navbar-nav a {
+        .navbar-nav .nav-link {
           margin-left: 15px;
           color: #FFF;
           font-weight: bold;

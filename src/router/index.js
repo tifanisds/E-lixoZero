@@ -4,10 +4,9 @@ import aboutUsPage from '../pages/aboutUsPage/index.vue'
 import locationsPage from '../pages/locationsPage/index.vue'
 
 const routes = [
-    {path: '/', component: homePage},
+    {path: '/', component: locationsPage},
     {path: '/aboutEletronicWastePage', component: aboutEletronicWastePage},
     {path: '/aboutUsPage', component: aboutUsPage},
-    {path: '/locationsPage', components: locationsPage}
 ];
 
 const router = createRouter({
