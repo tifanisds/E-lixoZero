@@ -75,6 +75,7 @@
             border-radius: 10px;
             text-align: justify;
             font-size: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         .data {
@@ -101,6 +102,7 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
                     .title {
                         font-size: 40px;
@@ -126,6 +128,7 @@
                 align-items: center;
                 justify-content: center;
                 margin: 30px 0 60px 0;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
                 .title {
                     font-size: 40px;

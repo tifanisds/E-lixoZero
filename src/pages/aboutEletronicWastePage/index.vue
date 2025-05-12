@@ -56,6 +56,7 @@
             width: 1000px;
             background-color: #FFF;
             border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
             .title {
                 font-size: 35px;
@@ -89,6 +90,7 @@
             width: 1000px;
             background-color: #FFF;
             border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
             .title {
                 font-size: 35px;
@@ -122,6 +124,7 @@
             width: 1000px;
             background-color: #FFF;
             border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
             .title {
                 font-size: 35px;
