@@ -69,7 +69,7 @@
 
         .about-the-project-text {
             margin-top: 50px;
-            width: 720px;
+            width: 1000px;
             background-color: #FFF;
             padding: 20px;
             border-radius: 10px;
@@ -78,12 +78,16 @@
         }
 
         .data {
-            max-width: 720px;
+            max-width: 1000px;
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
             .row-container {
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
                 width: 100%;
                 margin-top: 30px;
                 gap: 20px;
@@ -92,7 +96,7 @@
                     background-color: #FFF;
                     padding: 20px;
                     border-radius: 10px;
-                    width: 400px;
+                    width: 450px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -116,7 +120,7 @@
                 background-color: #FFF;
                 padding: 20px;
                 border-radius: 10px;
-                width: 720px;
+                width: 1000px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
