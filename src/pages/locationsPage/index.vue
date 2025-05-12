@@ -77,9 +77,16 @@ export default {
             font-size: 32px;
         }
 
-        .card-header {
-            background-color: $secondaryColor;
-            color: #FFF;
+        select {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+            .card-header {
+                background-color: $secondaryColor;
+                color: #FFF;
 
             .card-city {
                 display: flex;
@@ -93,16 +100,16 @@ export default {
             }
         }
 
-        .card-body {
+            .card-body {
 
-            .location-address, .location-contact {
-                display: flex;
+                .location-address, .location-contact {
+                    display: flex;
 
-                svg {
-                    width: 20px;
-                    margin-right: 5px;
-                    margin-top: 5px;
-                }
+                    svg {
+                        width: 20px;
+                        margin-right: 5px;
+                        margin-top: 5px;
+                    }
             }
             
 
@@ -110,6 +117,7 @@ export default {
                 font-size: 16px;
                 color: #5c5c5c;
             }
+        }
         }
 
     }
