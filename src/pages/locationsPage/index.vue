@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import locations from "../../../fake-api/db.json";
+import axios from "axios";
 
 export default {
     data() {
@@ -59,14 +59,21 @@ export default {
     },
 
     created() {
-        this.locations = locations.locations;
-    }
+        axios
+        .get('/fake-api/db.json')
+        .then((response) => {
+            this.locations = response.data.locations;
+        })
+        .catch((error) => {
+            console.error("Erro ao carregar os dados:", error)
+        });
+    },
 }
 
 </script>
 
 <style scoped lang="scss">
-@use "../../assets/styles/variables.scss" as *;
+    @use "../../assets/styles/variables.scss" as *;
 
     .container {
         min-height: 100vh;
@@ -83,22 +90,23 @@ export default {
 
         .card {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            min-height: 350px;
 
             .card-header {
                 background-color: $secondaryColor;
                 color: #FFF;
 
-            .card-city {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 4px;
-                width: 130px;
-                height: 25px;
-                background-color: $mainColor;
-                margin-top: 10px;
+                .card-city {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 4px;
+                    width: 130px;
+                    height: 25px;
+                    background-color: $mainColor;
+                    margin-top: 10px;
+                }
             }
-        }
 
             .card-body {
 
@@ -110,14 +118,25 @@ export default {
                         margin-right: 5px;
                         margin-top: 5px;
                     }
-            }
+                }
             
 
-            p {
-                font-size: 16px;
-                color: #5c5c5c;
+                p {
+                    font-size: 16px;
+                    color: #5c5c5c;
+                }
+
+                .operating-hour {
+                    p {
+                        margin: 0;
+                    }
+
+                    h5 {
+                    margin-top: 5px;
+                    color: $secondaryColor;
+                    }
+                }
             }
-        }
         }
 
     }

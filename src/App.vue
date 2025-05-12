@@ -41,6 +41,7 @@ import HelloWorld from './components/HelloWorld.vue'
           margin-left: 15px;
           color: #FFF;
           font-weight: bold;
+          font-size: 18px;
         }
       }
   }
