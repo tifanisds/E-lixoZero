@@ -24,3 +24,14 @@ Este projeto tem como objetivo principal **informar e localizar pontos de coleta
 - Interface adaptável para dispositivos móveis
 
 ---
+
+## 📸 Preview
+
+### Página de localizações
+![Página de localizaçõesl](./src/assets/img/preview/locations.png)
+
+### Página de conscientização sobre lixo eletrônico
+![Página conscientização sobre lixo eletrônico](./src/assets/img/preview/about-eletronic-waste.png)
+
+### Página de informações sobre o projeto
+![Página conscientização sobre lixo eletrônico](./src/assets/img/preview/aboutUs.png)
