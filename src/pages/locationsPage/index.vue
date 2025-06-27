@@ -5,7 +5,7 @@
                 <h1>Encontre Pontos de Coleta de Lixo Eletrônico</h1>
                 <select class="form-select form-select-lg" v-model="selectedCity">
                     <option value="">Selecione a cidade</option>
-                    <option value="Salavdor">Salvador</option>
+                    <option value="Salvador">Salvador</option>
                     <option value="Lauro de Freitas">Lauro de Freitas</option>
                     <option value="Camaçari">Camaçari</option>
                 </select>
@@ -13,7 +13,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4" v-for="location in locations" :key="location.id">
+            <div class="col-md-4" v-for="location in filteredLocations" :key="location.id">
                 <div class="card mb-4">
                     <div class="card-header p-4">
                         <h5 class="card-title mb-0">{{ location.name }}</h5>
@@ -67,6 +67,18 @@ export default {
         .catch((error) => {
             console.error("Erro ao carregar os dados:", error)
         });
+    },
+    
+    computed: {
+        filteredLocations() {
+            if (!this.selectedCity) {
+                return this.locations;
+            }
+
+            return this.locations.filter(
+                (location) => location.city === this.selectedCity
+            );
+        }
     },
 }
 
