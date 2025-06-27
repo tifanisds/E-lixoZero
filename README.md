@@ -4,7 +4,7 @@ Este projeto tem como objetivo principal **informar e localizar pontos de coleta
 
 ## 🚧 Status do Projeto
 
-> 🛠️ Em desenvolvimento.
+> 🛠️ Finalizado.
 
 ---
 
