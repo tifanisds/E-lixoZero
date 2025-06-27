@@ -55,6 +55,30 @@
             "address": "R. Lúcio Manoel da Hora - Boca do Rio, Salvador - BA, 41710-705",
             "operating-hour": "Seg a Sex: 8h à 19h, Sab: 8h à 14:30",
             "contact": "(71) 98163-7574"
+        },
+        {
+            "id": "8",
+            "name": "Atacadão - Posto de Entrega Voluntária",
+            "city": "Camaçari",
+            "address": "Rodovia BA-535 (Via Parafuso), s/n - Bairro Industrial, Camaçari, BA, 42800-937",
+            "operating-hour": "Atendimento 24h",
+            "contact": "(71) 3622-6695"
+        },
+        {
+            "id": "9",
+            "name": "EcoPEV do bairro Natal (Limpec/Sesp)",
+            "city": "Camaçari",
+            "address": "Primeira Travessa Rosário, Santa Cruz do Capibaribe, bairro Natal – Camaçari",
+            "operating-hour": "Atendimento 24h",
+            "contact": "Não divulgado"
+        },
+        {
+            "id": "10",
+            "name": "Desenbahia",
+            "city": "Camaçari",
+            "address": "Rua Ivone, no Centro Administrativo (Paralela) - Camaçari",
+            "operating-hour": "Seg a Sex: 8h à 16h",
+            "contact": "Não divulgado"
         }
     ]
 }
