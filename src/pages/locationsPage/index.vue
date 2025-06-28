@@ -60,7 +60,7 @@ export default {
 
     created() {
         axios
-        .get('/public/fake-api/db.json')
+        .get('/fake-api/db.json')
         .then((response) => {
             this.locations = response.data.locations;
         })
