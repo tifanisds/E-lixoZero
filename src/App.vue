@@ -46,5 +46,16 @@ import HelloWorld from './components/HelloWorld.vue'
       }
   }
 
+  @media (max-width: 768px) {
+    .bg-body-tertiary {
 
+      .navbar-collapse {
+
+        .navbar-nav .nav-link {
+          font-size: 14px;
+        }
+      }
+    }
+    
+  }
 </style>

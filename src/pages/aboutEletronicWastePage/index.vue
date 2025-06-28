@@ -53,7 +53,8 @@
         .what-is {
             padding: 30px;
             margin-top: 40px;
-            width: 1000px;
+            max-width: 1000px;
+            width: 100%;
             background-color: #FFF;
             border-radius: 16px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -87,7 +88,8 @@
         .harm-to-nature {
             padding: 30px;
             margin-top: 40px;
-            width: 1000px;
+            max-width: 1000px;
+            width: 100%;
             background-color: #FFF;
             border-radius: 16px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -121,7 +123,8 @@
         .how-to-discard {
             padding: 30px;
             margin: 40px 0 40px 0; 
-            width: 1000px;
+            max-width: 1000px;
+            width: 100%;
             background-color: #FFF;
             border-radius: 16px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -153,5 +156,87 @@
         }
 
 
+    }
+
+    @media (max-width: 768px) {
+        .main-container {
+            .what-is {
+                width: 90%;
+
+                .title {
+                    font-size: 30px;
+                }
+
+                .info {
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    justify-content: center;
+
+                    img {
+                        width: 80%;
+                        height: auto;
+                        margin: 0;
+                    }
+
+                    .texts {
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .harm-to-nature {
+                width: 90%;
+
+                .title {
+                    font-size: 30px;
+                }
+
+                .info {
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    justify-content: center;
+
+                    img {
+                        width: 80%;
+                        height: auto;
+                        margin: 0;
+                    }
+
+                    .texts {
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .how-to-discard {
+                width: 90%;
+
+                .title {
+                    font-size: 30px;
+                }
+
+                .info {
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    justify-content: center;
+
+                    img {
+                        width: 80%;
+                        height: auto;
+                        margin: 0;
+                    }
+
+                    .texts {
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
     }
 </style>

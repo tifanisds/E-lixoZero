@@ -69,7 +69,7 @@
 
         .about-the-project-text {
             margin-top: 50px;
-            width: 1000px;
+            max-width: 1000px;
             background-color: #FFF;
             padding: 20px;
             border-radius: 10px;
@@ -123,7 +123,8 @@
                 background-color: #FFF;
                 padding: 20px;
                 border-radius: 10px;
-                width: 1000px;
+                max-width: 1000px;
+                width: 100%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -143,6 +144,53 @@
                     color: $secondaryColor;
                 }
             }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .main-container {
+            padding: 20px;
+
+            h1 {
+                text-align: center;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            .about-the-project-text {
+                font-size: 16px;
+            }
+
+            .data {
+
+                .row-container {
+
+                    .eletronic-waste, .recycling {
+
+                        .title {
+                            font-size: 30px;
+                        }
+
+                        .text {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .urban-waste {
+                
+                    .title {
+                        font-size: 30px;
+                    }
+
+                    .text {
+                        font-size: 16px;
+                    }
+                }
+            }
+
         }
     }
 </style>
